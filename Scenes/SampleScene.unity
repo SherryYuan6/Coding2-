@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 287428000}
   - component: {fileID: 287427999}
   - component: {fileID: 287428002}
+  - component: {fileID: 287428003}
   m_Layer: 0
   m_Name: room-collider
   m_TagString: Untagged
@@ -575,11 +576,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287427998}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e331831d81b0042847b8415e4c9ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playaudio
+  fadeDuration: 2
+--- !u!114 &287428003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287427998}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3e331831d81b0042847b8415e4c9ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playaudio
+  fadeDuration: 1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1052,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 2a136a55db09e36468fe99daf344865a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1566,7 +1581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 2a136a55db09e36468fe99daf344865a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
